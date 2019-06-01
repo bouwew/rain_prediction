@@ -68,5 +68,5 @@ class BuienradarRainSensor(Entity):
         """Get the latest data and updates the state."""
         now = time.strftime("%H:%M")
         self.data = self._buienradar.get_forecast(now, self._timeframe)
-        self.data_array = self._buienradar.get_forecast_data() | round(2)
+        self.data_array = self._buienradar.get_forecast_data()
         self._state = self.data["averagerain"]
