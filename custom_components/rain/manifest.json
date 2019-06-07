@@ -1,1 +1,8 @@
-
+{
+  "domain": "rain",
+  "name": "Buienradar rain prediction sensor",
+  "documentation": "https://github.com/bouwew/rain_prediction",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ["pybuienradar==0.5"]
+}
